@@ -27,6 +27,9 @@ EOF
 
 # Install requirements
 pip install -r requirements.txt
+
+# Github
+gh repo create local_llm --public --source=. --remote=origin --push
 ```
 
 ## Usage
